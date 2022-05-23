@@ -1,0 +1,24 @@
+/////////////////////  watch 25th recording too..
+
+
+
+
+
+
+http for creating server - very imp
+
+let server = http.createServer((req, res)=>{
+    res.write('<h1> first node Server </h1>');
+    res.end()
+})
+server.listen(6780)         -- inside bracket = port number 
+
+
+
+// in package.json 
+
+through command prompt 
+
+npm init
+answer all the questions 
+and then change in script test >> start ='node staticapi.js'

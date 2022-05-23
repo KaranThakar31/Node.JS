@@ -1,0 +1,7 @@
+monodb, parserse, cors package downlaod
+
+let db;         //object database for us 
+
+
+connection with db 
+MongoClient.connect(mongoUrl,(err,client) => )
